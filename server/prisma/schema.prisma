@@ -12,7 +12,7 @@ datasource db {
 
 model LinguagemProgramacao {
   id Int @id @default(autoincrement())
-  nome String @db.VarChar(50)
+  nome String @db.VarChar(50) @unique
   data_criacao DateTime @default(now())
   ativo Boolean @default(true)
 }
