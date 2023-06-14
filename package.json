@@ -1,0 +1,11 @@
+{
+  "name": "api-linguagens-programacao",
+  "version": "1.0.0",
+  "description": "Um App simples para consulta e controle de registros de linguagens de programação para estudo do docker e node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gustavo Clemente",
+  "license": "ISC"
+}
