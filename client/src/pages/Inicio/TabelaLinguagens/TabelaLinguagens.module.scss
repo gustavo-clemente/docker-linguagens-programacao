@@ -1,0 +1,10 @@
+.tabelaLinguagens{
+    width: 100%;
+    
+    &__header{
+        text-align: center;
+        &__linha{
+            border-bottom: solid 1px #00000093;
+        }
+    }
+}

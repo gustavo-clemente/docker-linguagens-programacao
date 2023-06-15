@@ -1,13 +1,16 @@
-import { ReactComponent as Logo } from "assets/docker-logo.svg"
+import Footer from "components/Footer"
 import Header from "components/Header"
+import styles from './TemplatePadrao.module.scss'
+import { Outlet } from "react-router-dom"
 
 export default function TemplatePadrao() {
     return (
         <>
             <Header/>
-            <div>
-
+            <div className={styles.container}>
+                <Outlet/>
             </div>
+            <Footer/>
         </>
 
     )

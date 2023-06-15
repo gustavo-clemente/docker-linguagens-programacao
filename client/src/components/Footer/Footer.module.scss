@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #474040;
+    padding: 25px;
+
+    &__titulo, &__descricao, &__contato__link{
+        color: #fff;
+        
+    }
+
+    &__descricao{
+        text-align: justify;
+        line-height: 1.5rem;
+        width: 50%;
+    }
+
+    &__contato{
+        display: flex;
+        align-items: center;
+        &__link{
+            margin: 0 0.5rem;
+            box-sizing: border-box;
+            font-size: 30px;
+            border-radius: 50%;
+            padding: 5px;
+            transition: all 0.5s;
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+    }
+}
