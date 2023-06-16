@@ -1,0 +1,17 @@
+.buscadorLinguagem{
+    width: 20%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+
+    input{
+        background-color: #fff;
+        border: none;
+        width: 100%;
+        outline: none;
+    }
+}

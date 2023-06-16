@@ -4,6 +4,7 @@ import classNames from "classnames"
 import { NavLink } from 'react-router-dom';
 
 export default function Header() {
+
     const rotas = [
         {
             label: 'Ínicio',
@@ -20,6 +21,7 @@ export default function Header() {
             to: '/carregar-linguagens'
         }
     ]
+    
     return (
         <header className={styles.header}>
             <div className={styles.header__menu}>

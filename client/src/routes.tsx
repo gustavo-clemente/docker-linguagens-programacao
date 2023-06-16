@@ -1,10 +1,11 @@
 import TemplatePadrao from "components/TemplatePadrao"
 import Inicio from "pages/Inicio"
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import styleTema from 'styles/Tema.module.scss'
 
 export default function AppRouter(){
     return (
-        <main>
+        <main className={styleTema.container}>
             <Router>
                 <Routes>
                     <Route path="/" element={<TemplatePadrao/>}>
